@@ -1,5 +1,5 @@
 // Act. 2.1 Algoritmos con Arreglos Unidimensionales (1D)
-// Problemas 1 al 10: pseudocodigo en comentarios + implementacion en C++
+// Problemas 1 al 10 en C++ (pseudocodigo en comentarios)
 #include <iostream>
 using namespace std;
 
