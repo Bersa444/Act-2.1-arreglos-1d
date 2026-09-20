@@ -100,7 +100,7 @@ void problema4() {
         cin >> a[i];
         suma += a[i];
     }
-    double promedio = suma / 10.0;  // 10.0 para no perder los decimales
+    double promedio = suma / 10.0;  
     cout << "Promedio = " << promedio << endl;
 }
 
@@ -197,7 +197,7 @@ void problema7() {
         cout << "Tamano invalido." << endl;
         return;
     }
-    int* a = new int[n];  // memoria dinamica porque N se conoce en ejecucion
+    int* a = new int[n];  // Utilizo memoria dinamica :)
     int pares = 0, impares = 0;
     for (int i = 0; i < n; i++) {
         cout << "Entero " << i + 1 << ": ";
@@ -206,7 +206,7 @@ void problema7() {
         else impares++;
     }
     cout << "Pares: " << pares << " | Impares: " << impares << endl;
-    delete[] a;  // liberar la memoria
+    delete[] a;  // libero la memoria
 }
 
 /* ---------------------------------------------------------------
@@ -342,7 +342,7 @@ int main() {
     int opcion;
     do {
         cout << "\n=== Act. 2.1 Arreglos 1D ===\n";
-        cout << "Elige el problema (1-10), 0 para salir: ";
+        cout << "Elige el problema (1-10) ó (0) para salir: ";
         cin >> opcion;
         switch (opcion) {
             case 1: problema1(); break;
@@ -355,7 +355,7 @@ int main() {
             case 8: problema8(); break;
             case 9: problema9(); break;
             case 10: problema10(); break;
-            case 0: cout << "Adios." << endl; break;
+            case 0: cout << "Hasta luego :D " << endl; break;
             default: cout << "Opcion no valida." << endl;
         }
     } while (opcion != 0);
